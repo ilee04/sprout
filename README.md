@@ -2,6 +2,8 @@
 
 A responsive, interactive UI/UX concept for exploring sustainable home technologies. Built as an independent, AI-assisted portfolio project.
 
+**Live website:** https://ilee04.github.io/sprout/
+
 ## Features
 
 - Search, category filters, and renter-friendly filtering
@@ -20,6 +22,15 @@ Open `dist/index.html` in a modern browser. No installation or build is required
 - `dist/style.css`: responsive styling and illustrations
 - `dist/app.js`: sample concepts and interactive flows
 - `CASE-STUDY.md`: design rationale and proposed usability study
+
+## Publish updates
+
+GitHub Pages serves the root of the `gh-pages` branch. After committing changes on `main`, publish the website files with:
+
+```sh
+git push origin main
+git subtree push --prefix dist origin gh-pages
+```
 
 ## Project status
 
